@@ -1,0 +1,37 @@
+body {
+    background-color: whitesmoke;
+}
+
+div {
+    text-align: center;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.nome {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 100%;
+    padding-left:10px;
+}
+
+select {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 100%;
+    padding-left:50px;
+}
+
+.sub1{
+    padding-bottom: 20px;
+}

@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>TESTE TESTE</title>
 </head>
 <body>
-    <h1>T<h1>
+    <h1 class="text-6xl m-10">FICHA</h1>
+    <br>
+    <div class= "shadow-[20px_20px_0px_0px_rgba(0,0,0,0.3)] mb-[40px] mx-[650px] py-[30px] px-[20px] text-left">
+
+        <p class="text-4xl font-bold">Crie seu Personagem</p>
+        <br>
+        <br>
+
+        <p class="sub1 text-2xl font-medium">Informações Gerais</p>
+
+        <label for="nome">Nome: </label>
+        <input class="nome" type="text" id="nome">
+        <br>
+        <br>
+
+        <label for="genero">Gênero: </label>
+        <br>
+
+        <input type="radio" id="masculino" name="genero">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="genero">
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="outro" name="genero">
+        <label for="outro">Outro</label>
+        <br>
+        <br>
+
+        <label for="raca">Raça: </label>
+        <select class="w-full" name="raca" id="raca">
+            <option value="raca"></option>
+            <option value="raca">Humano</option>
+            <option value="raca">Elfo</option>
+            <option value="raca">Orc</option>
+            <option value="raca">Goblin</option>
+            <option value="raca">Anão</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="antecedente">Antecedente: </label>
+        <input class="nome w-full" type="text" id="antecedente">
+        <br>
+        <br>
+
+        <p class="sub2 text-2xl font-medium">Status</p>
+
+        <label for="forca">Força: </label>
+        <input class="nome w-full" type="number" id="forca" min="0" max="20">
+        <br>
+        <br>
+        <label for="destreza">Destreza: </label>
+        <input class="nome w-full" type="number" id="destreza" min="0" max="20">
+        <br>
+        <br>
+        <label for="constituicao">Constituição: </label>
+        <input class="nome w-full" type="number" id="constituicao" min="0" max="20">
+        <br>
+        <br>
+        <label for="sabedoria">Sabedoria: </label>
+        <input class="nome w-full" type="number" id="sabedoria" min="0" max="20">
+        <br>
+        <br>
+        <label for="inteligencia">Inteligência: </label>
+        <input class="nome w-full" type="number" id="inteligencia" min="0" max="20">
+        <br>
+        <br>
+        <label for="carisma">Carisma: </label>
+        <input class="nome w-full" type="number" id="carisma" min="0" max="20">
+        <br>
+        <br>
+
+    </div>
 </body>
 </html>
